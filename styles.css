@@ -118,7 +118,7 @@ cursor: pointer;
     }
     
 }
-@media all and (max-width: 356px){
+@media all and (max-width: 380px){
     body{overflow-x: hidden;}
     
     .nav-wrapper-social{
