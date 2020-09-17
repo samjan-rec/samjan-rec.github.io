@@ -70,7 +70,7 @@ cursor: pointer;
 }
 
 
-@media screen and device and (max-width: 800px){
+@media all and (max-width: 800px){
     body{overflow-x: hidden;}
     .large-logo{
         display: flex;
@@ -118,7 +118,7 @@ cursor: pointer;
     }
     
 }
-@media screeen and device and (max-width: 356px){
+@media all and (max-width: 356px){
     body{overflow-x: hidden;}
     
     .nav-wrapper-social{
@@ -141,7 +141,7 @@ cursor: pointer;
     }
     
 }
-@media screen and device and (max-width: 300px){
+@media all and (max-width: 300px){
         body{overflow-x: hidden;}
 }        
 
