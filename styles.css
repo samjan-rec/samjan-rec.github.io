@@ -1,0 +1,147 @@
+body{
+    font-family: "itc-avant-garde-gothic-pro", medium;
+    margin: 0px; 
+}
+
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    vertical-align: middle;
+}
+.icon-wrapper {
+    position: absolute;
+    top: 16px;
+    left: 36px;   
+}
+.to-be-defined-wrapper{
+    display: flex;
+    font-size: 0.9em;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+}
+.animation-wrapper{
+    display: flex;
+    font-size: 0.9em;
+    padding-top: 15px;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    overflow-x: hidden;
+}
+.large-logo{
+    display: none
+}
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0px; 
+    width: 100%;
+    padding-bottom: 6px;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 34px;
+    color: black;
+    flex-wrap: wrap;  
+}
+
+.nav-wrapper-social{
+    display: none;
+}
+
+.nav-wrapper a {
+color: black;
+text-decoration: none;
+border-bottom: 1px solid transparent 
+}
+
+.nav-wrapper a:hover {
+color: #8a8a8a;
+text-decoration: none;
+border-bottom: 1px solid;
+transition: color 0.3s;
+cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px){
+    body{overflow-x: hidden;}
+    .large-logo{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .nav-wrapper {
+        display: flex;
+        font-size: 0.8em;
+        justify-content: space-evenly;
+        padding-top: 36px;
+        color: black; 
+    }
+
+    .nav-wrapper a {
+        color: black;
+        text-decoration: none;
+        border-bottom: 1px solid transparent 
+    }
+    
+    .nav-wrapper a:hover {
+        color: #8a8a8a;
+        text-decoration: none;
+        border-bottom: 1px solid;
+        transition: color 0.3s;
+    } 
+    .to-be-defined-wrapper{
+        display: flex;
+        font-size: 0.7em;
+        padding: 30px;
+        justify-content: center;
+        text-align: center;
+        justify-self: center;
+    }
+    .animation-wrapper{
+        display: none;
+        font-size: 0.9em;
+        padding: 15px;
+        justify-content: center;
+        text-align: center;
+        justify-self: center;}
+    
+    .icon-wrapper{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 356px){
+    body{overflow-x: hidden;}
+    
+    .nav-wrapper-social{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 28px;
+    } 
+    
+    .nav-wrapper-social a:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    .icon-wrapper {
+        display: none;
+    }
+
+    .nav-wrapper {
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 300px){
+        body{overflow-x: hidden;}
+}        
+
