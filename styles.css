@@ -128,7 +128,6 @@ cursor: pointer;
     }
     .banner-wrapper{
         display: none;
-        justify-content: center;
     }
 }
 @media all and (max-width: 620px){
@@ -161,7 +160,9 @@ cursor: pointer;
     .nav-wrapper {
         display: none;
     }
-    
+    .banner-wrapper{
+        display: none;
+    }
 }
 @media all and (max-width: 300px){
         body{overflow-x: hidden;}
@@ -173,6 +174,9 @@ cursor: pointer;
             letter-spacing: 2px;
             flex-wrap: none;
             padding: 28px;        
-        } 
+        }
+        .banner-wrapper{
+            display: none;
+        }
 }        
 
