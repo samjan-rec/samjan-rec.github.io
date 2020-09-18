@@ -72,6 +72,11 @@ cursor: pointer;
     display: none;
 }
 
+.banner-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 @media all and (max-width: 800px){
     body{overflow-x: hidden;}
     .large-logo{
@@ -79,11 +84,10 @@ cursor: pointer;
         justify-content: center;
     }
     .name-wrapper{
-        font-weight: normal;
+        font-weight: 600;
         display: flex;
         justify-content: center;
         font-size: 18px;
-        text-transform: uppercase;
         letter-spacing: 3px;
         flex-wrap: nowrap;
         padding: 28px;        
@@ -111,7 +115,7 @@ cursor: pointer;
     .to-be-defined-wrapper{
         display: flex;
         font-size: 0.7em;
-        padding: 30px;
+        padding: 10px;
         justify-content: center;
         text-align: center;
         justify-self: center;
@@ -122,16 +126,28 @@ cursor: pointer;
     .icon-wrapper{
         display: none;
     }
-    
+    .banner-wrapper{
+        display: none;
+        justify-content: center;
+    }
 }
 @media all and (max-width: 620px){
     body{overflow-x: hidden;}
-    
+    .name-wrapper{
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        letter-spacing: 2px;
+        flex-wrap: nowrap;
+        padding: 22px;        
+    } 
     .nav-wrapper-social{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     padding: 28px;
+
     } 
     
     .nav-wrapper-social a:hover {
@@ -149,5 +165,14 @@ cursor: pointer;
 }
 @media all and (max-width: 300px){
         body{overflow-x: hidden;}
+        .name-wrapper{
+            font-weight: normal;
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+            letter-spacing: 2px;
+            flex-wrap: none;
+            padding: 28px;        
+        } 
 }        
 
